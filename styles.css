@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/header_pic.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -83,7 +83,36 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+}
+h1.name{
+  -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite;
+    animation-direction: alternate;
 } 
+/*tag-color transition
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background: #AA6B39;}
+    25%  {background: #672B4E;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@keyframes myfirst {
+    0%   {background: #AA6B39;}
+    25%  {background: #AA6B39;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+
+
+
+
+
 .location {
   background-color: #222;
   color: yellow;
